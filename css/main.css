@@ -1,40 +1,57 @@
-body{
-  background: green ;
-}
 
-div{
- display: inline-block;
- height: 250px;
- width: 130px;
- border: 5px solid white;
+.borde {
+  background: #8cb27c;
+height: auto;
+width: 760px;
+float: left;
+position: relative;
 }
 #campo{
+  background: #8cb27c;
+  height: 380px;
   margin: 15px;
-  width: 98%;
-  height: 600px;
   border: 5px solid white;
-  text-align: center;
+  box-sizing: border-box;
 }
 
 .arco1{
-  position: relative;
-  top: 180px;
-  float: left;
+  height: 145px;
+   width: 83px;
+   margin: 115px -5px;
+   border: 5px solid white;
+   position: absolute;
 }
-.circulo{  
-
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-      bottom: : 110px;
-      position: relative;
-      top: 160px;
+.circulo{
+  height: 145px;
+  width: 145px;
+  margin: 115px 275px;
+  border: 5px solid white;
+  border-radius: 100px;
+  position: absolute;
 
 }
 
 .arco2{
-  position: relative;
-  top: 180px;
-    float: right;
+  height: 145px;
+  width: 83px;
+  margin: 115px 0px 0px 632px;
+  border: 5px solid white;
+  position: absolute;
+}
+.one {
+    width: 20px;
+    margin: 120px 63px ;
+    position: absolute;
+}
 
+.two {
+    width: 20px;
+    margin: 84px 355px ;
+    position: absolute;
+}
+
+.three {
+    width: 20px;
+    margin: 240px 604px ;
+    position: absolute;
 }
